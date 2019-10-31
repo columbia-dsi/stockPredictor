@@ -1,0 +1,15 @@
+Package: stockPredictor
+Type: Package
+Title: Predict Stock Price Movement for Given Stock Symbol
+Version: 0.1.0
+Author: Kevin Gao
+Maintainer: Kevin Gao <wg2311@columbia.edu>
+Description: This package help you predics whether the stock price would be higher or lower at tomorrow's closing compared to today's closing.
+License: GPL-2
+Encoding: UTF-8
+LazyData: false
+Imports:
+  quantmod,stats,xts
+Suggests:
+  knitr
+RoxygenNote: 6.1.1
